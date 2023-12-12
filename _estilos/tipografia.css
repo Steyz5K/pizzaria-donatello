@@ -1,0 +1,65 @@
+/* Resets Gerais */
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #f2b705;
+}
+
+h1 {
+    font-size: 600%;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+h2::after {
+    display: block;
+    background-color: green;
+    height: 5px;
+    width: 100px;
+    /* sempre quando for uma caixa, usar o margin para alinha*/
+
+    margin: 40px auto 30px;
+    content: "";
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+
+header div#chamada h1 {
+    color: #fff;
+    text-shadow: 4px 6px 10px #000;
+}
+
+header div#chamada h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+}
+
+header div#chamada a {
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 50px;
+    display: inline-block;
+    background: linear-gradient(rgba(7, 140, 49, 55)0%, rgba(6, 89, 2, 35) 50%, rgba(6, 89, 2, 35) 100%);
