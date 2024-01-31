@@ -120,6 +120,7 @@ div.folha1 {
     height: 150px;
     background-image: url(../_imagens/secao09-folha1.png);
     background-repeat: no-repeat;
+
 }
 
 div.camarao {
@@ -138,6 +139,7 @@ div.folha2 {
     width: 150px;
     height: 150px;
     background: url(../_imagens/secao09-folha2.png) no-repeat;
+
 }
 
 div.folha3 {
@@ -147,6 +149,7 @@ div.folha3 {
     width: 160px;
     height: 150px;
     background: url(../_imagens/secao09-folha3.png) no-repeat;
+
 }
 
 div.tomate {
